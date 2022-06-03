@@ -7,15 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742531B12849FC51009BE839 /* Data+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742531B02849FC51009BE839 /* Data+Size.swift */; };
+		742531B2284A0A08009BE839 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474604F28477D9A00240444 /* Assets.swift */; };
+		743159F22848E7CD00931039 /* UIView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743159F12848E7CD00931039 /* UIView+Style.swift */; };
+		743159F42848F87700931039 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743159F32848F87700931039 /* ImageCache.swift */; };
+		7474603F284750D000240444 /* AnimalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474603E284750D000240444 /* AnimalTests.swift */; };
+		74746040284750D700240444 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017CC2846A47D009400A6 /* Animal.swift */; };
+		747460422847519A00240444 /* Animal+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747460412847519A00240444 /* Animal+Mock.swift */; };
+		74746044284752B800240444 /* Decodable+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017DD2846A970009400A6 /* Decodable+API.swift */; };
+		747460452847538B00240444 /* SnakeCaseJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017DF2846A984009400A6 /* SnakeCaseJSONDecoder.swift */; };
+		747460472847549F00240444 /* URLRequest+APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747460462847549F00240444 /* URLRequest+APITests.swift */; };
+		7474604B2847551C00240444 /* URLRequest+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017D92846A900009400A6 /* URLRequest+API.swift */; };
+		7474604C2847552B00240444 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017D12846A538009400A6 /* APIService.swift */; };
+		7474604D2847567C00240444 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017D52846A59A009400A6 /* APIError.swift */; };
+		7474605028477D9A00240444 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474604F28477D9A00240444 /* Assets.swift */; };
+		747460522847824400240444 /* Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747460512847824400240444 /* Spacer.swift */; };
+		747460542847BDBA00240444 /* UIImageView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747460532847BDBA00240444 /* UIImageView+Helper.swift */; };
+		747460562848B42600240444 /* AnimalExplorerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747460552848B42600240444 /* AnimalExplorerViewModelTests.swift */; };
+		747460572848B42F00240444 /* AnimalExplorerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017C42846A437009400A6 /* AnimalExplorerViewModel.swift */; };
+		7474605B2848B7F200240444 /* Animal+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017CF2846A4EE009400A6 /* Animal+API.swift */; };
+		7474605C2848B7FD00240444 /* AnimalExplorerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017C62846A449009400A6 /* AnimalExplorerDetailViewModel.swift */; };
+		7474605D2848B8D500240444 /* API+Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017D72846A618009400A6 /* API+Resource.swift */; };
+		747460622848BADD00240444 /* AnimalExplorerDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747460612848BADD00240444 /* AnimalExplorerDetailViewModelTests.swift */; };
+		747460642848BB6900240444 /* AnimalMockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747460632848BB6900240444 /* AnimalMockAPI.swift */; };
+		747460662848C27D00240444 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747460652848C27D00240444 /* APIServiceTests.swift */; };
+		747460682848CD2C00240444 /* AnimalDetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747460672848CD2C00240444 /* AnimalDetailInfoView.swift */; };
 		74C017932846A30D009400A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017922846A30D009400A6 /* AppDelegate.swift */; };
 		74C017952846A30D009400A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017942846A30D009400A6 /* SceneDelegate.swift */; };
-		74C017972846A30D009400A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017962846A30D009400A6 /* ViewController.swift */; };
-		74C0179A2846A30D009400A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C017982846A30D009400A6 /* Main.storyboard */; };
+		74C017972846A30D009400A6 /* AnimalExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017962846A30D009400A6 /* AnimalExplorerViewController.swift */; };
 		74C0179C2846A30F009400A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C0179B2846A30F009400A6 /* Assets.xcassets */; };
 		74C0179F2846A30F009400A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C0179D2846A30F009400A6 /* LaunchScreen.storyboard */; };
-		74C017AA2846A30F009400A6 /* AnimalExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017A92846A30F009400A6 /* AnimalExplorerTests.swift */; };
-		74C017B42846A30F009400A6 /* AnimalExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017B32846A30F009400A6 /* AnimalExplorerUITests.swift */; };
-		74C017B62846A30F009400A6 /* AnimalExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017B52846A30F009400A6 /* AnimalExplorerUITestsLaunchTests.swift */; };
+		74C017C32846A3E2009400A6 /* AnimalExplorerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017C22846A3E2009400A6 /* AnimalExplorerDetailViewController.swift */; };
+		74C017C52846A437009400A6 /* AnimalExplorerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017C42846A437009400A6 /* AnimalExplorerViewModel.swift */; };
+		74C017C72846A449009400A6 /* AnimalExplorerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017C62846A449009400A6 /* AnimalExplorerDetailViewModel.swift */; };
+		74C017CD2846A47D009400A6 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017CC2846A47D009400A6 /* Animal.swift */; };
+		74C017D02846A4EE009400A6 /* Animal+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017CF2846A4EE009400A6 /* Animal+API.swift */; };
+		74C017D22846A538009400A6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017D12846A538009400A6 /* APIService.swift */; };
+		74C017D62846A59A009400A6 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017D52846A59A009400A6 /* APIError.swift */; };
+		74C017D82846A618009400A6 /* API+Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017D72846A618009400A6 /* API+Resource.swift */; };
+		74C017DA2846A900009400A6 /* URLRequest+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017D92846A900009400A6 /* URLRequest+API.swift */; };
+		74C017DE2846A970009400A6 /* Decodable+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017DD2846A970009400A6 /* Decodable+API.swift */; };
+		74C017E02846A984009400A6 /* SnakeCaseJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017DF2846A984009400A6 /* SnakeCaseJSONDecoder.swift */; };
+		74C017E22846AA7F009400A6 /* AnimalExplorerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017E12846AA7F009400A6 /* AnimalExplorerTableViewCell.swift */; };
+		74C017E62846AE13009400A6 /* UITableViewCell+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017E52846AE13009400A6 /* UITableViewCell+Identifiable.swift */; };
+		74C017E92846AE88009400A6 /* UITableView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C017E82846AE88009400A6 /* UITableView+Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +61,45 @@
 			remoteGlobalIDString = 74C0178E2846A30D009400A6;
 			remoteInfo = AnimalExplorer;
 		};
-		74C017B02846A30F009400A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74C017872846A30D009400A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74C0178E2846A30D009400A6;
-			remoteInfo = AnimalExplorer;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		742531B02849FC51009BE839 /* Data+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Size.swift"; sourceTree = "<group>"; };
+		743159F12848E7CD00931039 /* UIView+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; };
+		743159F32848F87700931039 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		7474603E284750D000240444 /* AnimalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTests.swift; sourceTree = "<group>"; };
+		747460412847519A00240444 /* Animal+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animal+Mock.swift"; sourceTree = "<group>"; };
+		747460462847549F00240444 /* URLRequest+APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+APITests.swift"; sourceTree = "<group>"; };
+		7474604F28477D9A00240444 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		747460512847824400240444 /* Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer.swift; sourceTree = "<group>"; };
+		747460532847BDBA00240444 /* UIImageView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Helper.swift"; sourceTree = "<group>"; };
+		747460552848B42600240444 /* AnimalExplorerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalExplorerViewModelTests.swift; sourceTree = "<group>"; };
+		747460612848BADD00240444 /* AnimalExplorerDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalExplorerDetailViewModelTests.swift; sourceTree = "<group>"; };
+		747460632848BB6900240444 /* AnimalMockAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalMockAPI.swift; sourceTree = "<group>"; };
+		747460652848C27D00240444 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
+		747460672848CD2C00240444 /* AnimalDetailInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailInfoView.swift; sourceTree = "<group>"; };
 		74C0178F2846A30D009400A6 /* AnimalExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C017922846A30D009400A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74C017942846A30D009400A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74C017962846A30D009400A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		74C017992846A30D009400A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74C017962846A30D009400A6 /* AnimalExplorerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalExplorerViewController.swift; sourceTree = "<group>"; };
 		74C0179B2846A30F009400A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74C0179E2846A30F009400A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74C017A02846A30F009400A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74C017A52846A30F009400A6 /* AnimalExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74C017A92846A30F009400A6 /* AnimalExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalExplorerTests.swift; sourceTree = "<group>"; };
-		74C017AF2846A30F009400A6 /* AnimalExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74C017B32846A30F009400A6 /* AnimalExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalExplorerUITests.swift; sourceTree = "<group>"; };
-		74C017B52846A30F009400A6 /* AnimalExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74C017C22846A3E2009400A6 /* AnimalExplorerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalExplorerDetailViewController.swift; sourceTree = "<group>"; };
+		74C017C42846A437009400A6 /* AnimalExplorerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalExplorerViewModel.swift; sourceTree = "<group>"; };
+		74C017C62846A449009400A6 /* AnimalExplorerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalExplorerDetailViewModel.swift; sourceTree = "<group>"; };
+		74C017CC2846A47D009400A6 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		74C017CF2846A4EE009400A6 /* Animal+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animal+API.swift"; sourceTree = "<group>"; };
+		74C017D12846A538009400A6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		74C017D52846A59A009400A6 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		74C017D72846A618009400A6 /* API+Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Resource.swift"; sourceTree = "<group>"; };
+		74C017D92846A900009400A6 /* URLRequest+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+API.swift"; sourceTree = "<group>"; };
+		74C017DD2846A970009400A6 /* Decodable+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+API.swift"; sourceTree = "<group>"; };
+		74C017DF2846A984009400A6 /* SnakeCaseJSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeCaseJSONDecoder.swift; sourceTree = "<group>"; };
+		74C017E12846AA7F009400A6 /* AnimalExplorerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalExplorerTableViewCell.swift; sourceTree = "<group>"; };
+		74C017E52846AE13009400A6 /* UITableViewCell+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Identifiable.swift"; sourceTree = "<group>"; };
+		74C017E82846AE88009400A6 /* UITableView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +117,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74C017AC2846A30F009400A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		742531AF2849FC2C009BE839 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				742531B02849FC51009BE839 /* Data+Size.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7474603D284750B100240444 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7474603E284750D000240444 /* AnimalTests.swift */,
+				747460412847519A00240444 /* Animal+Mock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74746048284754A600240444 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				747460652848C27D00240444 /* APIServiceTests.swift */,
+				74746049284754AC00240444 /* Extensions */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		74746049284754AC00240444 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				747460462847549F00240444 /* URLRequest+APITests.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7474604E28475B9F00240444 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				747460552848B42600240444 /* AnimalExplorerViewModelTests.swift */,
+				747460612848BADD00240444 /* AnimalExplorerDetailViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		747460582848B4DF00240444 /* MockServices */ = {
+			isa = PBXGroup;
+			children = (
+				747460632848BB6900240444 /* AnimalMockAPI.swift */,
+			);
+			name = MockServices;
+			sourceTree = "<group>";
+		};
 		74C017862846A30D009400A6 = {
 			isa = PBXGroup;
 			children = (
 				74C017912846A30D009400A6 /* AnimalExplorer */,
 				74C017A82846A30F009400A6 /* AnimalExplorerTests */,
-				74C017B22846A30F009400A6 /* AnimalExplorerUITests */,
 				74C017902846A30D009400A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +185,6 @@
 			children = (
 				74C0178F2846A30D009400A6 /* AnimalExplorer.app */,
 				74C017A52846A30F009400A6 /* AnimalExplorerTests.xctest */,
-				74C017AF2846A30F009400A6 /* AnimalExplorerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,8 +194,12 @@
 			children = (
 				74C017922846A30D009400A6 /* AppDelegate.swift */,
 				74C017942846A30D009400A6 /* SceneDelegate.swift */,
-				74C017962846A30D009400A6 /* ViewController.swift */,
-				74C017982846A30D009400A6 /* Main.storyboard */,
+				74C017CE2846A481009400A6 /* Models */,
+				74C017C92846A463009400A6 /* ViewModels */,
+				74C017C82846A455009400A6 /* ViewControllers */,
+				74C017D32846A548009400A6 /* Services */,
+				74C017E32846AA83009400A6 /* Views */,
+				7474604F28477D9A00240444 /* Assets.swift */,
 				74C0179B2846A30F009400A6 /* Assets.xcassets */,
 				74C0179D2846A30F009400A6 /* LaunchScreen.storyboard */,
 				74C017A02846A30F009400A6 /* Info.plist */,
@@ -113,18 +210,108 @@
 		74C017A82846A30F009400A6 /* AnimalExplorerTests */ = {
 			isa = PBXGroup;
 			children = (
-				74C017A92846A30F009400A6 /* AnimalExplorerTests.swift */,
+				747460582848B4DF00240444 /* MockServices */,
+				7474603D284750B100240444 /* Models */,
+				7474604E28475B9F00240444 /* ViewModels */,
+				74746048284754A600240444 /* Services */,
 			);
 			path = AnimalExplorerTests;
 			sourceTree = "<group>";
 		};
-		74C017B22846A30F009400A6 /* AnimalExplorerUITests */ = {
+		74C017C82846A455009400A6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				74C017B32846A30F009400A6 /* AnimalExplorerUITests.swift */,
-				74C017B52846A30F009400A6 /* AnimalExplorerUITestsLaunchTests.swift */,
+				74C017962846A30D009400A6 /* AnimalExplorerViewController.swift */,
+				74C017C22846A3E2009400A6 /* AnimalExplorerDetailViewController.swift */,
 			);
-			path = AnimalExplorerUITests;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74C017C92846A463009400A6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74C017C42846A437009400A6 /* AnimalExplorerViewModel.swift */,
+				74C017C62846A449009400A6 /* AnimalExplorerDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74C017CE2846A481009400A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74C017CC2846A47D009400A6 /* Animal.swift */,
+				74C017CF2846A4EE009400A6 /* Animal+API.swift */,
+				742531AF2849FC2C009BE839 /* Extensions */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74C017D32846A548009400A6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				74C017D42846A553009400A6 /* Network */,
+				743159F32848F87700931039 /* ImageCache.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		74C017D42846A553009400A6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				74C017D12846A538009400A6 /* APIService.swift */,
+				74C017D72846A618009400A6 /* API+Resource.swift */,
+				74C017DB2846A92F009400A6 /* Models */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		74C017DB2846A92F009400A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74C017D52846A59A009400A6 /* APIError.swift */,
+				74C017DF2846A984009400A6 /* SnakeCaseJSONDecoder.swift */,
+				74C017DC2846A93E009400A6 /* Extensions */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74C017DC2846A93E009400A6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74C017D92846A900009400A6 /* URLRequest+API.swift */,
+				74C017DD2846A970009400A6 /* Decodable+API.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74C017E32846AA83009400A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				747460672848CD2C00240444 /* AnimalDetailInfoView.swift */,
+				74C017E42846AD5C009400A6 /* Cells */,
+				74C017E72846AE1A009400A6 /* Extensions */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74C017E42846AD5C009400A6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				74C017E12846AA7F009400A6 /* AnimalExplorerTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		74C017E72846AE1A009400A6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				743159F12848E7CD00931039 /* UIView+Style.swift */,
+				74C017E82846AE88009400A6 /* UITableView+Helper.swift */,
+				74C017E52846AE13009400A6 /* UITableViewCell+Identifiable.swift */,
+				747460532847BDBA00240444 /* UIImageView+Helper.swift */,
+				747460512847824400240444 /* Spacer.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +352,6 @@
 			productReference = 74C017A52846A30F009400A6 /* AnimalExplorerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		74C017AE2846A30F009400A6 /* AnimalExplorerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74C017BF2846A30F009400A6 /* Build configuration list for PBXNativeTarget "AnimalExplorerUITests" */;
-			buildPhases = (
-				74C017AB2846A30F009400A6 /* Sources */,
-				74C017AC2846A30F009400A6 /* Frameworks */,
-				74C017AD2846A30F009400A6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				74C017B12846A30F009400A6 /* PBXTargetDependency */,
-			);
-			name = AnimalExplorerUITests;
-			productName = AnimalExplorerUITests;
-			productReference = 74C017AF2846A30F009400A6 /* AnimalExplorerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +367,6 @@
 					};
 					74C017A42846A30F009400A6 = {
 						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 74C0178E2846A30D009400A6;
-					};
-					74C017AE2846A30F009400A6 = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 74C0178E2846A30D009400A6;
 					};
 				};
 			};
@@ -221,7 +385,6 @@
 			targets = (
 				74C0178E2846A30D009400A6 /* AnimalExplorer */,
 				74C017A42846A30F009400A6 /* AnimalExplorerTests */,
-				74C017AE2846A30F009400A6 /* AnimalExplorerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +396,10 @@
 			files = (
 				74C0179F2846A30F009400A6 /* LaunchScreen.storyboard in Resources */,
 				74C0179C2846A30F009400A6 /* Assets.xcassets in Resources */,
-				74C0179A2846A30D009400A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		74C017A32846A30F009400A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74C017AD2846A30F009400A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +413,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C017972846A30D009400A6 /* ViewController.swift in Sources */,
+				74C017DA2846A900009400A6 /* URLRequest+API.swift in Sources */,
+				747460682848CD2C00240444 /* AnimalDetailInfoView.swift in Sources */,
+				747460522847824400240444 /* Spacer.swift in Sources */,
+				74C017C32846A3E2009400A6 /* AnimalExplorerDetailViewController.swift in Sources */,
+				74C017972846A30D009400A6 /* AnimalExplorerViewController.swift in Sources */,
+				74C017E22846AA7F009400A6 /* AnimalExplorerTableViewCell.swift in Sources */,
+				7474605028477D9A00240444 /* Assets.swift in Sources */,
+				74C017D02846A4EE009400A6 /* Animal+API.swift in Sources */,
+				74C017D62846A59A009400A6 /* APIError.swift in Sources */,
+				74C017E92846AE88009400A6 /* UITableView+Helper.swift in Sources */,
+				742531B12849FC51009BE839 /* Data+Size.swift in Sources */,
+				74C017C72846A449009400A6 /* AnimalExplorerDetailViewModel.swift in Sources */,
+				74C017C52846A437009400A6 /* AnimalExplorerViewModel.swift in Sources */,
+				74C017CD2846A47D009400A6 /* Animal.swift in Sources */,
 				74C017932846A30D009400A6 /* AppDelegate.swift in Sources */,
+				74C017DE2846A970009400A6 /* Decodable+API.swift in Sources */,
+				743159F42848F87700931039 /* ImageCache.swift in Sources */,
+				747460542847BDBA00240444 /* UIImageView+Helper.swift in Sources */,
+				74C017D22846A538009400A6 /* APIService.swift in Sources */,
+				74C017E02846A984009400A6 /* SnakeCaseJSONDecoder.swift in Sources */,
+				74C017E62846AE13009400A6 /* UITableViewCell+Identifiable.swift in Sources */,
 				74C017952846A30D009400A6 /* SceneDelegate.swift in Sources */,
+				743159F22848E7CD00931039 /* UIView+Style.swift in Sources */,
+				74C017D82846A618009400A6 /* API+Resource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +444,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C017AA2846A30F009400A6 /* AnimalExplorerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74C017AB2846A30F009400A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74C017B42846A30F009400A6 /* AnimalExplorerUITests.swift in Sources */,
-				74C017B62846A30F009400A6 /* AnimalExplorerUITestsLaunchTests.swift in Sources */,
+				7474605B2848B7F200240444 /* Animal+API.swift in Sources */,
+				7474604B2847551C00240444 /* URLRequest+API.swift in Sources */,
+				747460642848BB6900240444 /* AnimalMockAPI.swift in Sources */,
+				747460662848C27D00240444 /* APIServiceTests.swift in Sources */,
+				74746044284752B800240444 /* Decodable+API.swift in Sources */,
+				747460572848B42F00240444 /* AnimalExplorerViewModel.swift in Sources */,
+				7474604D2847567C00240444 /* APIError.swift in Sources */,
+				747460622848BADD00240444 /* AnimalExplorerDetailViewModelTests.swift in Sources */,
+				742531B2284A0A08009BE839 /* Assets.swift in Sources */,
+				7474603F284750D000240444 /* AnimalTests.swift in Sources */,
+				747460562848B42600240444 /* AnimalExplorerViewModelTests.swift in Sources */,
+				747460452847538B00240444 /* SnakeCaseJSONDecoder.swift in Sources */,
+				74746040284750D700240444 /* Animal.swift in Sources */,
+				7474605D2848B8D500240444 /* API+Resource.swift in Sources */,
+				747460472847549F00240444 /* URLRequest+APITests.swift in Sources */,
+				7474604C2847552B00240444 /* APIService.swift in Sources */,
+				747460422847519A00240444 /* Animal+Mock.swift in Sources */,
+				7474605C2848B7FD00240444 /* AnimalExplorerDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,22 +473,9 @@
 			target = 74C0178E2846A30D009400A6 /* AnimalExplorer */;
 			targetProxy = 74C017A62846A30F009400A6 /* PBXContainerItemProxy */;
 		};
-		74C017B12846A30F009400A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 74C0178E2846A30D009400A6 /* AnimalExplorer */;
-			targetProxy = 74C017B02846A30F009400A6 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		74C017982846A30D009400A6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74C017992846A30D009400A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74C0179D2846A30F009400A6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +591,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,14 +605,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = PrimaryColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84GRMHNHVJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AnimalExplorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,6 +623,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnimalExplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,14 +634,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = PrimaryColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84GRMHNHVJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AnimalExplorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,6 +652,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnimalExplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,18 +663,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnimalExplorerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalExplorer.app/AnimalExplorer";
 			};
 			name = Debug;
 		};
@@ -507,52 +683,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnimalExplorerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalExplorer.app/AnimalExplorer";
-			};
-			name = Release;
-		};
-		74C017C02846A30F009400A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AnimalExplorerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnimalExplorer;
-			};
-			name = Debug;
-		};
-		74C017C12846A30F009400A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AnimalExplorerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnimalExplorer;
 			};
 			name = Release;
 		};
@@ -582,15 +725,6 @@
 			buildConfigurations = (
 				74C017BD2846A30F009400A6 /* Debug */,
 				74C017BE2846A30F009400A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		74C017BF2846A30F009400A6 /* Build configuration list for PBXNativeTarget "AnimalExplorerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74C017C02846A30F009400A6 /* Debug */,
-				74C017C12846A30F009400A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
